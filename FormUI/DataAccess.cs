@@ -15,8 +15,8 @@ namespace FormUI
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CNNVal("SampleDB")))
             {
-                var output =  connection.Query<Person>($"select * from People where LastName = '{ lastname }'").ToList();
-                //var output = connection.Query<Person>("dbo.People_GetByLastName @LastName").ToList();
+                //var output =  connection.Query<Person>($"select * from People where LastName = '{ lastname }'").ToList();
+                var output = connection.Query<Person>("dbo.People_GetByLastName @LastName", new {LastName = lastname}).ToList();
                 return   output;
             }
         }
