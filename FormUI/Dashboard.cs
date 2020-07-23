@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FormUI
 {
-    public partial class Dashboard : Form
+    public partial class SQLDataAccessDemo : Form
     {
-        public Dashboard()
+        public SQLDataAccessDemo()
         {
             InitializeComponent();
         }

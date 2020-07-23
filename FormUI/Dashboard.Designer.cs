@@ -1,6 +1,6 @@
 ﻿namespace FormUI
 {
-    partial class Dashboard
+    partial class SQLDataAccessDemo
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SQLDataAccessDemo));
             this.SuspendLayout();
             // 
-            // Dashboard
+            // SQLDataAccessDemo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(697, 458);
+            this.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Dashboard";
-            this.Text = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.Name = "SQLDataAccessDemo";
+            this.Text = "SQL Data Access";
             this.ResumeLayout(false);
 
         }
